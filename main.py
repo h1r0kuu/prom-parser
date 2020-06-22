@@ -85,5 +85,3 @@ class Prom:
 	def run(self):
 		for i in range(1,int(self.get_max_page())-1):
 			self.block(self.url+f';{i}')
-a = Prom()
-a.run()
